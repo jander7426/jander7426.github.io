@@ -7,5 +7,21 @@
   </head>
   <body>
     James is cool!
+    
+    <sript>
+      var randomObjects = ["Face", "Hairline", "Mom", "Butt", "Dad", "Feet", "Underwear", "Armpit"];
+      var randomAdjectives = ["Smelly", "Stinky", "Lame", "Crusty", "Dusty", "Rusty", "Gross", "Wrinkly"];
+      var randomWords = ["Rat", "Camel", "Fly", "Bug", "Maggot", "Dog", "Frog", "Baby"];
+      
+      // Pick a random object from the randomObjects array:
+      var randomObject = randomObjects[Math.floor(Math.random() * 8)];
+      // Pick a random adjective from the randomAdjectives array:
+      var randomAdjective = randomAdjectives[Math.floor(Math.random() * 8)];
+      // Pick a random word from the randomWords array:
+      var randomWord = randomWords[Math.floor(Math.random() * 8)];
+      // Join all the random strings into a sentence:
+      var randomInsult = "Your " + randomObject + " is like a " + randomAdjective + " " + randomWord + "!!!";
+      document.write(randomInsult);
+    </sript>
   </body>
 </html>
